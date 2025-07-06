@@ -1,0 +1,56 @@
+{
+    "non_vegetarian": [
+        {
+            "id": 1,
+            "img": "https://static.vecteezy.com/system/resources/thumbnails/053/315/343/small_2x/delicious-tandoori-chicken-indian-cuisine-spicy-foodgraphy-photo.jpeg",
+            "title": "Wedding Event"
+        },
+        {
+            "id": 2,
+            "img": "https://t3.ftcdn.net/jpg/07/15/94/78/360_F_715947842_Eyw4LTWe3seRZTwNoms1uuypYZmrQN4Y.jpg",
+            "title": "Annaprasana"
+        },
+        {
+            "id": 3,
+            "img": "https://media.istockphoto.com/id/1183779071/photo/tasty-and-spicy-fish-fry-from-indian-food.jpg?s=612x612&w=0&k=20&c=gq4TphAdZ59BPv59FvzZ6Ri7vVKDNHtTw0R--WveXGQ=",
+            "title": "Annaprasana"
+        },
+        {
+            "id": 4,
+            "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_366/pvcaoemoghjcdbvkxukz",
+            "title": "Annaprasana"
+        },
+        {
+            "id": 5,
+            "img": "https://static.vecteezy.com/system/resources/thumbnails/037/710/641/small_2x/ai-generated-smoke-grilled-delicious-meat-with-chicken-wings-on-a-plate-free-photo.jpg",
+            "title": "Annaprasana"
+        }
+    ],
+    "vegetarian": [
+        {
+            "id": 1,
+            "img": "https://t3.ftcdn.net/jpg/06/50/60/46/360_F_650604677_lQDktDtlSu3jQTlctUpKPTcKahdrw0am.jpg",
+            "title": "Wedding Event"
+        },
+        {
+            "id": 2,
+            "img": "https://t3.ftcdn.net/jpg/02/28/28/16/360_F_228281605_zX4rGhhAX6fNkBgx7dp1IXu8XMnhCl01.jpg",
+            "title": "Annaprasana"
+        },
+        {
+            "id": 3,
+            "img": "https://media.easemytrip.com/media/Blog/India/636977607425696252/636977607425696252QYiiUU.jpg",
+            "title": "Wedding Event"
+        },
+        {
+            "id": 4,
+            "img": "https://c4.wallpaperflare.com/wallpaper/745/318/469/hamburger-veggie-burger-food-veggie-burger-wallpaper-preview.jpg",
+            "title": "Wedding Event"
+        },
+        {
+            "id": 5,
+            "img": "https://t3.ftcdn.net/jpg/06/07/30/22/360_F_607302267_FcoQV4B4Kl8BetPBVx9Bipeb0y7ghwBm.jpg",
+            "title": "Wedding Event"
+        }
+    ]
+}

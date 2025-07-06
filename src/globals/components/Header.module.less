@@ -1,0 +1,45 @@
+.header {
+    padding: 0% 2%;
+    align-items: center;
+    box-shadow: 0 0 1rem #0003;
+    display: flex;
+    justify-content: space-between;
+    // padding: 1rem 2rem;
+    position: relative;
+    z-index: 1;
+    font-family: Lato;
+    height: 90px;
+
+    background: #052020;
+    color: white;
+
+    >img {
+        height: 88px;
+        width: auto;
+    }
+
+    >div:nth-child(2) {
+        display: flex;
+        // gap: 41%;
+        justify-content: center;
+        // align-items: center;
+        // align-items: baseline;
+        gap: 5rem;
+        font-size: 17px;
+
+        .activeTab {
+            color: #d4a762 !important;
+        }
+
+        >div {
+            // color: var(--code-fillups-text-color);
+            cursor: pointer;
+        }
+
+    }
+
+
+    >button {
+        background: linear-gradient(180deg, #fdc50f 26.71%, #fb982f 99.36%) !important;
+    }
+}

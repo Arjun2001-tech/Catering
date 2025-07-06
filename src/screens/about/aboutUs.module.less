@@ -1,0 +1,33 @@
+.about_us {
+    display: flex;
+    padding: 2%;
+    justify-content: space-around;
+
+    >div:first-child {
+        width: 36%;
+        flex: 0 0 auto;
+    }
+
+    >div:nth-child(2) {
+        width: 50%;
+
+        >h1 {
+            font-size: 45px !important;
+            // color: #d4a762;
+            color: var(--clock-chimes-thirteen);
+            margin-bottom: 0px;
+        }
+
+        >p:nth-child(2) {
+            font-size: 20px;
+            color: #45494E;
+            font-family: Figtree;
+        }
+
+        >div {
+            font-size: 17px;
+            text-align: justify;
+            color: var(--color-scale-gray-14);
+        }
+    }
+}
