@@ -3,9 +3,9 @@ import { withTranslation } from 'react-i18next';
 import { useHistory, useLocation } from 'react-router-dom';
 import styles from './Header.module.less';
 
+const menuTaps = ['home', 'menu', 'services', 'about', 'contact'];
 const RouterLayout = (props) => {
   const { t } = props;
-  const menuTaps = ['home', 'menu', 'services', 'about', 'contact'];
   const [activeTab, setActiveTab] = useState('');
 
   const history = useHistory();
