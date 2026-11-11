@@ -1,0 +1,138 @@
+.contact {
+    padding: 2%;
+
+    >div:first-child {
+        padding: 3% 30%;
+
+        >h1 {
+            // color: #d4a762;
+            color: var(--clock-chimes-thirteen);
+        }
+
+        >p {
+            font-size: 16px;
+            color: var(--color-scale-gray-11);
+        }
+    }
+
+    >div:nth-child(3) {
+        display: flex;
+        justify-content: space-around;
+        padding: 3% 6%;
+        // background-color: #fffcf8;
+        margin: 0% 6% 0% 6%;
+        border-radius: 17px;
+        box-shadow: 0 0 45px rgba(0, 0, 0, .08);
+        background: var(--color-scale-gray-7);
+
+        >div:first-child {
+            display: flex;
+            flex-direction: column;
+            gap: 13px;
+
+            >div {
+                // border: 1px solid #d4a762;
+                padding: 2%;
+                border-radius: 10px;
+                box-shadow: 0 0 45px rgba(0, 0, 0, .08);
+                background: darkgray;
+                border: 3px solid dimgray;
+
+                >h1 {
+                    color: var(--color-green-cyan);
+                }
+
+                >p,
+                a {
+                    color: var(--color-scale-gray-11);
+                    font-size: 15px;
+                    font-family: initial;
+                }
+            }
+        }
+
+        >div:nth-child(2) {
+            >iframe {
+                // border: none;
+                border-radius: 10px;
+                box-shadow: 0 0 45px rgba(0, 0, 0, 0.08);
+                border: 1px solid #d4a762;
+            }
+        }
+
+        >div:last-child {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 23%;
+            box-shadow: 0 0 45px rgba(0, 0, 0, 0.08);
+            // border: 1px solid #d4a762;
+            border-radius: 10px;
+            padding: 1%;
+            height: 287px;
+            background: darkgray;
+            border: 3px solid dimgray;
+
+            >i {
+                // color: #fdc50f;
+                color: var(--color-green-cyan);
+                margin: 0;
+            }
+        }
+    }
+}
+
+.enquire {
+    padding: 2% 14%;
+
+    >h1 {
+        font-variant: petite-caps;
+        font-size: 36px !important;
+        color: var(--clock-chimes-thirteen);
+    }
+
+    >form:nth-child(2) {
+        >div {
+            >div {
+                >label {
+                    text-align: justify;
+                }
+
+                >div {
+                    width: -moz-available;
+                }
+            }
+        }
+    }
+}
+
+/* Responsive layout additions */
+
+@media (max-width: 1000px) {
+    .contact > div:first-child { padding: 3% 12%; }
+    .contact > div:nth-child(3) { margin: 0 2%; padding: 3%; gap: 20px; flex-wrap: wrap; }
+    .contact > div:nth-child(3) > div:first-child { flex: 1 1 220px; }
+    .contact > div:nth-child(3) > div:nth-child(2) { flex: 1 1 300px; }
+    .contact > div:nth-child(3) > div:nth-child(2) iframe { width: 100%; max-width: 470px; }
+    .contact > div:nth-child(3) > div:last-child { flex-direction: row; gap: 24px; height: auto; min-height: 80px; flex: 1 1 100%; }
+    .enquire { padding: 2% 7%; }
+}
+@media (max-width: 600px) {
+    .contact { padding: 18px 12px; }
+    .contact > div:first-child { padding: 18px 8px; text-align: center; }
+    .contact > div:first-child > h1 { font-size: 28px !important; }
+    .contact > div:nth-child(3) { margin: 0; padding: 16px; flex-direction: column; gap: 18px; }
+    .contact > div:nth-child(3) > div:first-child,
+    .contact > div:nth-child(3) > div:nth-child(2),
+    .contact > div:nth-child(3) > div:last-child { width: 100%; flex: none; }
+    .contact > div:nth-child(3) > div:nth-child(2) iframe { width: 100% !important; height: 240px; }
+    .contact > div:nth-child(3) > div:last-child { min-height: 70px; justify-content: center; }
+    .enquire { padding: 24px 8px; }
+    .enquire > h1 { font-size: 29px !important; }
+    .enquire form .fields { display: flex !important; flex-direction: column !important; }
+    .enquire form .fields > .field { width: 100% !important; margin: 0 0 14px !important; }
+    .enquire form input,
+    .enquire form select { max-width: 100%; }
+}
+

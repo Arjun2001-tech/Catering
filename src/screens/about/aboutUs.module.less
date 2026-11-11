@@ -1,0 +1,53 @@
+.about_us {
+    display: flex;
+    padding: 2%;
+    justify-content: space-around;
+
+    >div:first-child {
+        width: 36%;
+        flex: 0 0 auto;
+    }
+
+    >div:nth-child(2) {
+        width: 50%;
+
+        >h1 {
+            font-size: 45px !important;
+            // color: #d4a762;
+            color: var(--clock-chimes-thirteen);
+            margin-bottom: 0px;
+        }
+
+        >p:nth-child(2) {
+            font-size: 20px;
+            color: #45494E;
+            font-family: Figtree;
+        }
+
+        >div {
+            font-size: 17px;
+            text-align: justify;
+            color: var(--color-scale-gray-14);
+        }
+    }
+}
+
+/* Responsive layout additions */
+
+@media (max-width: 900px) {
+    .about_us { gap: 28px; align-items: center; }
+    .about_us > div:first-child { width: 40%; }
+    .about_us > div:first-child img { width: 100%; height: auto; }
+    .about_us > div:nth-child(2) { width: 56%; }
+    .about_us > div:nth-child(2) > h1 { font-size: 36px !important; }
+}
+@media (max-width: 600px) {
+    .about_us { flex-direction: column; padding: 28px 18px; gap: 20px; }
+    .about_us > div:first-child,
+    .about_us > div:nth-child(2) { width: 100%; }
+    .about_us > div:first-child img { width: 100%; height: auto; }
+    .about_us > div:nth-child(2) > h1 { font-size: 29px !important; }
+    .about_us > div:nth-child(2) > p:nth-child(2) { font-size: 17px; }
+    .about_us > div:nth-child(2) > div { font-size: 15px; }
+}
+

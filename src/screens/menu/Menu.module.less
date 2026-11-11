@@ -1,0 +1,85 @@
+.menu_layout {
+    padding: 2%;
+
+    >h1 {
+        margin-bottom: 0px;
+        font-variant: petite-caps;
+        font-size: 36px !important;
+        color: var(--clock-chimes-thirteen);
+    }
+
+    >p:nth-child(2) {
+        padding: 2% 20%;
+        //   text-align: justify;
+        font-size: 15px;
+        color: var(--color-scale-gray-1);
+    }
+
+    >div:nth-child(3) {
+        display: flex;
+        justify-content: center;
+        gap: 7%;
+        font-size: 20px;
+        padding: 2%;
+        // margin-bottom: 0px;
+        font-variant: petite-caps;
+        // font-size: 36px !important;
+        // color: var(--color-laurel-green);
+        color: var(--colour-warning-base);
+        cursor: pointer;
+
+        >div {
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+            gap: 2px;
+
+            >div {
+                border: 2px solid var(--color-zuccini);
+                width: 3em;
+                border-radius: 6px;
+                // padding: 1px;
+            }
+        }
+    }
+
+    >div:nth-child(4) {
+        padding: 2%;
+
+        >div {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 4%;
+
+            >div {
+                >div {
+                    height: 100%;
+
+                    >img {
+                        height: 100%;
+                        border-radius: 10px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* Responsive layout additions */
+
+@media (max-width: 900px) {
+    .menu_layout > p:nth-child(2) { padding: 2% 8%; }
+    .menu_layout > div:nth-child(4) > div { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; }
+    .menu_layout > div:nth-child(4) img { width: 100%; height: auto; object-fit: cover; }
+}
+@media (max-width: 600px) {
+    .menu_layout { padding: 28px 16px; }
+    .menu_layout > h1 { font-size: 29px !important; }
+    .menu_layout > p:nth-child(2) { padding: 14px 0; font-size: 14px; line-height: 1.6; }
+    .menu_layout > div:nth-child(3) { gap: 24px; font-size: 16px; flex-wrap: wrap; }
+    .menu_layout > div:nth-child(4) { padding: 12px 0; }
+    .menu_layout > div:nth-child(4) > div { grid-template-columns: 1fr; gap: 14px; }
+    .menu_layout > div:nth-child(4) > div > div { min-width: 0; }
+    .menu_layout > div:nth-child(4) img { width: 100%; height: auto; max-height: none; object-fit: contain; }
+}
+

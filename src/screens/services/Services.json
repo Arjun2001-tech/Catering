@@ -1,0 +1,52 @@
+{
+    "services": [
+      {
+        "id": 1,
+        "img": "/assets/images/Wedding_Event.jpg",
+        "title": "Wedding Event",
+        "content": "Wedding. Why we have the concept of inviting all our relatives, friends and known ones? Its because, when a family celebrates an event means, its an occasion, when lot of people celebrates an event means, it turns as a feast. If there any feast occurs without food?? We are here to make a memorable experience for your guests by pampering their taste buds."
+      },
+      {
+        "id": 2,
+        "img": "/assets/images/Annaprasana.jpg",
+        "title": "Annaprasana",
+        "content": "A popular Hindu custom, Annaprasanna marks the beginning of solid food in your baby's life. Following this ritual, Parents will start feeding solid foods to baby on day-to-day basis. Many parents prefer to hire a banquet hall or community center for the function where they call all their dear ones to bless the baby. At Venus, we ensure everyone’s happiness by give them the yummy food."
+      },
+      {
+        "id": 3,
+        "img": "/assets/images/Birthday _Party.webp",
+        "title": "Birthday Party",
+        "content": "Make every birthday a memorable one with our birthday photography. Whether it’s a child's first birthday or a milestone celebration, we capture the joy, excitement, and love of the day and preserve it forever. At Venus Catering Service, we take care of the happiness of your guests by offering them amazing food on behalf of you."
+      },
+      {
+        "id": 4,
+        "img": "/assets/images/Engagement.jpg",
+        "title": "Engagement",
+        "content": "Wedding is a special bond which makes the life of any person as a beautiful one. Engagement is the first step of the wedding process and it assures the bond and relationship between two individuals. Engagements are celebrated in very grand manner. According to us, we give more importance to the satisfaction of the guests in terms of food."
+      },
+      {
+        "id": 5,
+        "img": "/assets/images/Seemantham.jpg",
+        "title": "Seemantham",
+        "content": "What can be more special than a woman giving life to another soul in this world? It’s an amazing experience to witness a woman getting transformed into motherhood. All the friends, relatives and people on our locality will be coming to greet and bless the to be mother and the baby to arrive safely. We make sure that the food taste gives you extra happiness and smile."
+      },
+      {
+        "id": 6,
+        "img": "/assets/images/House_Warming.jpg",
+        "title": "House Warming",
+        "content": "Houses makes our life complete. Most of our life we are going to spend on the houses. So houses are always special. It carries out all the emotions of family and pass it to generations and on. In our society, building a house is considered as an achievement and it gives immense happiness and secured feel. We take of your guests and they will praise about your house and our food as well."
+      },
+      {
+        "id": 7,
+        "img": "/assets/images/Mehndi_Function.jpg",
+        "title": "Mehndi Function",
+        "content": "The core significance of applying Mehndi is to utilize its natural medicinal herbal remedies, cooling the body and relieving the bride of any stress before her big day. Apart from the medicinal benefit, bride g looks beautiful with her mehndi filled hands. In modern day marriages, it’s a trend to have mehndi function exclusively and we obviously take care of food."
+      },
+      {
+        "id": 8,
+        "img": "/assets/images/Corporate_Events.jpg",
+        "title": "Corporate Events",
+        "content": "From corporate events to business occasions or milestone celebrations, our event catering team captures the heart of their audiences on their special occasions. We focus on delivering the customized delicacies of different types. We make sure all the audience feel good about the food too and that make your event unique."
+      }
+    ]
+  }
